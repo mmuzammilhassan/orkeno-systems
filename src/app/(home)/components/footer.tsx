@@ -230,10 +230,6 @@ export function HomeFooter() {
         </div>
       </div>
 
-      {/* Made with ❤️ */}
-      {/* Name:     Muzammil Hassan */}
-      {/* Github:   https://github.com/mmuzammilhassan */}
-      {/* Gmail:    mmuzammilhassan24@gmail.com */}
     </footer>
   )
 }
