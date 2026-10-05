@@ -21,10 +21,10 @@ export default function RootLayout({
           {children}
         </ThemeProvider>
 
-        {/* Made with ❤️ */}
-        {/* Name:     Muzammil Hassan */}
-        {/* Github:   https://github.com/mmuzammilhassan */}
-        {/* Gmail:    mmuzammilhassan24@gmail.com */}
+        {/* <!-- Made with ❤️ --> */}
+        {/* <!-- Name:     Muzammil Hassan --> */}
+        {/* <!-- Github:   https://github.com/mmuzammilhassan --> */}
+        {/* <!-- Gmail:    mmuzammilhassan24@gmail.com --> */}
       </body>
     </html>
   );
