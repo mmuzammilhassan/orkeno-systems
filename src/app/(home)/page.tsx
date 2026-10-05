@@ -19,10 +19,5 @@ export const metadata: Metadata = {
 }
 
 export default function HomePage() {
-  return <HomePageContent>
-    {/* Made with ❤️ */}
-    {/* Name:     Muzammil Hassan */}
-    {/* Github:   https://github.com/mmuzammilhassan */}
-    {/* Gmail:    mmuzammilhassan24@gmail.com */}
-  </HomePageContent>
+  return <HomePageContent />
 }

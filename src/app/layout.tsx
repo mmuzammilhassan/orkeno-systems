@@ -20,6 +20,11 @@ export default function RootLayout({
         <ThemeProvider defaultTheme="system" storageKey="nextjs-ui-theme">
           {children}
         </ThemeProvider>
+
+        {/* Made with ❤️ */}
+        {/* Name:     Muzammil Hassan */}
+        {/* Github:   https://github.com/mmuzammilhassan */}
+        {/* Gmail:    mmuzammilhassan24@gmail.com */}
       </body>
     </html>
   );
