@@ -16,8 +16,6 @@ import {
   SheetHeader,
   SheetTitle
 } from '@/components/ui/sheet'
-// import { ModeToggle } from '@/components/mode-toggle'
-import { useTheme } from '@/hooks/use-theme'
 
 const navigationItems = [
   { name: 'Home', href: '#hero' },
@@ -43,7 +41,6 @@ const smoothScrollTo = (targetId: string) => {
 export function HomeNavbar() {
   const [isOpen, setIsOpen] = useState(false)
   // const [solutionsOpen, setSolutionsOpen] = useState(false)
-  const { setTheme, theme } = useTheme()
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-xl supports-[backdrop-filter]:bg-background/60">
@@ -103,15 +100,14 @@ export function HomeNavbar() {
                     </a>
                   </SheetTitle>
                   <div className="ml-auto flex items-center gap-2">
-                    <Button
-                      variant="ghost"
-                      size="icon"
-                      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-                      className="cursor-pointer h-8 w-8"
-                    >
-                      <Moon className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-                      <Sun className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-                    </Button>
+                    {/* <Button */}
+                    {/*   variant="ghost" */}
+                    {/*   size="icon" */}
+                    {/*   className="cursor-pointer h-8 w-8" */}
+                    {/* > */}
+                    {/*   <Moon className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" /> */}
+                    {/*   <Sun className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" /> */}
+                    {/* </Button> */}
                     <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="cursor-pointer h-8 w-8">
                       <X className="h-4 w-4" />
                     </Button>

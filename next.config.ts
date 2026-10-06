@@ -39,6 +39,19 @@ const nextConfig: NextConfig = {
             key: 'Referrer-Policy',
             value: 'origin-when-cross-origin',
           },
+          // Custom Signature Headers 🚀
+          {
+            key: 'X-Made-With',
+            value: 'Love',
+          },
+          {
+            key: 'X-Developer',
+            value: 'Muzammil Hassan (https://github.com/mmuzammilhassan)',
+          },
+          {
+            key: 'X-Developer-Contact',
+            value: 'mmuzammilhassan24@gmail.com',
+          },
         ],
       },
     ];

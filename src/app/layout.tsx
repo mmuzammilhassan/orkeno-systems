@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
-import { ThemeProvider } from "@/components/theme-provider";
 import { inter } from "@/lib/fonts";
 
 export const metadata: Metadata = {
@@ -16,15 +14,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} antialiased`}>
+      <head>
+        {/* Injecting raw HTML comments directly inside the page head */}
+        <noscript
+          dangerouslySetInnerHTML={{
+            __html: `
+<!-- Made with ❤️ -->
+<!-- Name: Muzammil Hassan -->
+<!-- Github: https://github.com -->
+<!-- Gmail: mmuzammilhassan24@gmail.com -->
+            `,
+          }}
+        />
+      </head>
       <body className={inter.className}>
-        <ThemeProvider defaultTheme="system" storageKey="nextjs-ui-theme">
-          {children}
-        </ThemeProvider>
-
-        {/* <!-- Made with ❤️ --> */}
-        {/* <!-- Name:     Muzammil Hassan --> */}
-        {/* <!-- Github:   https://github.com/mmuzammilhassan --> */}
-        {/* <!-- Gmail:    mmuzammilhassan24@gmail.com --> */}
+        {children}
       </body>
     </html>
   );

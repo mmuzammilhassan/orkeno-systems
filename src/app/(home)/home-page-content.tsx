@@ -1,12 +1,10 @@
 "use client"
 
-import React from 'react'
 import { HomeNavbar } from './components/navbar'
 import { HeroSection } from './components/hero-section'
 import { LogoCarousel } from './components/logo-carousel'
 import { StatsSection } from './components/stats-section'
 import { FeaturesSection } from './components/features-section'
-import { TeamSection } from './components/team-section'
 import { TestimonialsSection } from './components/testimonials-section'
 import { BlogSection } from './components/blog-section'
 import { PricingSection } from './components/pricing-section'
@@ -19,7 +17,7 @@ import { AboutSection } from './components/about-section'
 export function HomePageContent() {
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="dark min-h-screen bg-background">
       {/* Navigation */}
       <HomeNavbar />
 
@@ -30,7 +28,6 @@ export function HomePageContent() {
         <StatsSection />
         <AboutSection />
         <FeaturesSection />
-        <TeamSection />
         <PricingSection />
         <TestimonialsSection />
         <BlogSection />

@@ -71,26 +71,26 @@ export function ContactSection() {
         <div className="grid gap-8 lg:grid-cols-3">
           {/* Contact Options */}
           <div className="space-y-6 order-2 lg:order-1">
-            <Card className="hover:shadow-md transition-shadow cursor-pointer">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <MapPin className="h-5 w-5 text-primary" />
-                  Company Location
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-3">
-                  Sector 5/E, Orangi Town, Karachi
-
-                  Shahrah-e-Faisal, Karachi
-                </p>
-                {/* <Button variant="outline" size="sm" className="cursor-pointer" asChild> */}
-                {/*   <a href="https://discord.com/invite/XEQhPc9a6p" target="_blank" rel="noopener noreferrer"> */}
-                {/*     Join Discord */}
-                {/*   </a> */}
-                {/* </Button> */}
-              </CardContent>
-            </Card>
+            {/* <Card className="hover:shadow-md transition-shadow cursor-pointer"> */}
+            {/*   <CardHeader> */}
+            {/*     <CardTitle className="flex items-center gap-2"> */}
+            {/*       <MapPin className="h-5 w-5 text-primary" /> */}
+            {/*       Company Location */}
+            {/*     </CardTitle> */}
+            {/*   </CardHeader> */}
+            {/* <CardContent> */}
+            {/*   <p className="text-muted-foreground mb-3"> */}
+            {/*     Sector 5/E, Orangi Town, Karachi */}
+            {/**/}
+            {/*     Shahrah-e-Faisal, Karachi */}
+            {/*   </p> */}
+            {/* <Button variant="outline" size="sm" className="cursor-pointer" asChild> */}
+            {/*   <a href="https://discord.com/invite/XEQhPc9a6p" target="_blank" rel="noopener noreferrer"> */}
+            {/*     Join Discord */}
+            {/*   </a> */}
+            {/* </Button> */}
+            {/* </CardContent> */}
+            {/* </Card> */}
 
             <Card className="hover:shadow-md transition-shadow cursor-pointer">
               <CardHeader>
@@ -101,7 +101,7 @@ export function ContactSection() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-3">
-                  hr@kisoftwaressolutions.com
+                  official@orkenasystems.com
                 </p>
                 {/* <Button variant="outline" size="sm" className="cursor-pointer" asChild> */}
                 {/*   <a href="https://github.com/silicondeck/shadcn-dashboard-home-template/issues" target="_blank" rel="noopener noreferrer"> */}
@@ -111,24 +111,24 @@ export function ContactSection() {
               </CardContent>
             </Card>
 
-            <Card className="hover:shadow-md transition-shadow cursor-pointer">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <Phone className="h-5 w-5 text-primary" />
-                  Call Us On
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-3">
-                  +92 319 7617561
-                </p>
-                {/* <Button variant="outline" size="sm" className="cursor-pointer" asChild> */}
-                {/*   <a href="#"> */}
-                {/*     View Docs */}
-                {/*   </a> */}
-                {/* </Button> */}
-              </CardContent>
-            </Card>
+            {/* <Card className="hover:shadow-md transition-shadow cursor-pointer"> */}
+            {/*   <CardHeader> */}
+            {/*     <CardTitle className="flex items-center gap-2"> */}
+            {/*       <Phone className="h-5 w-5 text-primary" /> */}
+            {/*       Call Us On */}
+            {/*     </CardTitle> */}
+            {/*   </CardHeader> */}
+            {/*   <CardContent> */}
+            {/*     <p className="text-muted-foreground mb-3"> */}
+            {/*       +92 319 7617561 */}
+            {/*     </p> */}
+            {/* <Button variant="outline" size="sm" className="cursor-pointer" asChild> */}
+            {/*   <a href="#"> */}
+            {/*     View Docs */}
+            {/*   </a> */}
+            {/* </Button> */}
+            {/*   </CardContent> */}
+            {/* </Card> */}
           </div>
 
           {/* Contact Form */}
