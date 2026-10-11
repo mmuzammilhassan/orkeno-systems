@@ -72,7 +72,7 @@ export function FeaturesSection() {
             Accelerate Your Development with Orkena Systems Company
           </h2>
           <p className="text-lg text-muted-foreground">
-            We’re passionate about solving meaningful problems where customer, technology and data intersect. Our team provides integrated, end-to-end digital and experience solutions from strategy, innovation through to execution.
+            We&apos;re the E-Commerce Web Develepment Company that helps E-Commerce Businesses build innovative, scalable, high-performance applications.
           </p>
         </div>
 

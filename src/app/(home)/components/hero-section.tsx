@@ -22,7 +22,7 @@ export function HeroSection() {
             <Badge variant="outline" className="px-4 py-2 border-foreground">
               <Star className="w-3 h-3 mr-2 fill-current" />
               {/* New: Premium Template Collection */}
-              We help you accelerate so you can stay ahead
+              We help you in E-Commerce, Web & Mobile App Development
               <ArrowRight className="w-3 h-3 ml-2" />
             </Badge>
           </div>
@@ -38,9 +38,10 @@ export function HeroSection() {
 
           {/* Subheading */}
           <p className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground sm:text-xl">
-            We design innovative, scalable, high-performance digital solutions that meet business requirements.
-            Whether launching innovative Web-based Software, Websites & Mobile Apps, hire the top-rated,
-            custom web and mobile app development service, Orkena Systems.
+            We design innovative, scalable, high-performance E-Commerce, Web & Mobile App
+            that meet your business requirements.
+            Whether launching innovative E-Commerce Store, Websites & Mobile Apps, hire the top-rated,
+            Modren Stack developers from Orkena Systems to build your next project.
           </p>
 
           {/* CTA Buttons */}

@@ -1,11 +1,6 @@
 "use client"
 
-import {
-  Package,
-  Download,
-  Users,
-  Star
-} from 'lucide-react'
+import { Package, Award, Users, Star } from 'lucide-react'
 import { Card, CardContent } from '@/components/ui/card'
 import { DotPattern } from '@/components/dot-pattern'
 
@@ -13,15 +8,15 @@ import { DotPattern } from '@/components/dot-pattern'
 const stats = [
   {
     icon: Package,
-    value: '500+',
+    value: '300+',
     label: 'Projects',
     description: 'Delivered successfully'
   },
   {
-    icon: Download,
-    value: '25K+',
-    label: 'Downloads',
-    description: 'Trusted worldwide'
+    icon: Award,
+    value: '100+',
+    label: 'Positive Reviews',
+    description: 'Customer satisfaction and trust',
   },
   {
     icon: Users,
@@ -31,7 +26,7 @@ const stats = [
   },
   {
     icon: Star,
-    value: '4.9',
+    value: '4.3',
     label: 'Rating',
     description: 'Customer satisfaction'
   }

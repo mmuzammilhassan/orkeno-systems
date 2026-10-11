@@ -8,7 +8,7 @@ import { FeaturesSection } from './components/features-section'
 import { TestimonialsSection } from './components/testimonials-section'
 import { BlogSection } from './components/blog-section'
 import { PricingSection } from './components/pricing-section'
-import { CTASection } from './components/cta-section'
+// import { CTASection } from './components/cta-section'
 import { ContactSection } from './components/contact-section'
 import { FaqSection } from './components/faq-section'
 import { HomeFooter } from './components/footer'
@@ -32,7 +32,7 @@ export function HomePageContent() {
         <TestimonialsSection />
         <BlogSection />
         <FaqSection />
-        <CTASection />
+        {/* <CTASection /> */}
         <ContactSection />
       </main>
 

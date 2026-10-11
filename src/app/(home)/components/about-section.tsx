@@ -42,8 +42,7 @@ export function AboutSection() {
             About Orkena Systems Company
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            We&apos;re  the top Web/Desktop, IOS and Android App Development Service in all across Pakistan and abroad. We offer attention-grabbing, user-friendly, and high-performance products, customized according to the client’s needs.
-            Our mission is to accelerate development and help developers build beautiful admin interfaces faster.
+            We&apos;re the E-Commerce Web & Mobile App Development Company that helps businesses and individuals build innovative, scalable, high-performance applications. Our team of experienced developers and designers work closely with clients to understand their unique needs and deliver solutions that exceed expectations.
           </p>
         </div>
 
@@ -63,26 +62,6 @@ export function AboutSection() {
             </Card>
           ))}
         </div>
-
-        {/* Call to Action */}
-        {/* <div className="mt-16 text-center"> */}
-        {/*   <div className="flex items-center justify-center gap-2 mb-6"> */}
-        {/*     <span className="text-muted-foreground">❤️ Made with love for the developer community</span> */}
-        {/*   </div> */}
-        {/*   <div className="flex flex-col sm:flex-row gap-4 justify-center"> */}
-        {/*     <Button size="lg" className="cursor-pointer" asChild> */}
-        {/*       <a href="https://github.com/silicondeck/shadcn-dashboard-home-template" target="_blank" rel="noopener noreferrer"> */}
-        {/*         <Github className="mr-2 h-4 w-4" /> */}
-        {/*         Star on GitHub */}
-        {/*       </a> */}
-        {/*     </Button> */}
-        {/*     <Button size="lg" variant="outline" className="cursor-pointer" asChild> */}
-        {/*       <a href="https://discord.com/invite/XEQhPc9a6p" target="_blank" rel="noopener noreferrer"> */}
-        {/*         Join Discord Community */}
-        {/*       </a> */}
-        {/*     </Button> */}
-        {/*   </div> */}
-        {/* </div> */}
       </div>
     </section>
   )

@@ -14,27 +14,26 @@ type FaqItem = {
 const faqItems: FaqItem[] = [
   {
     value: 'item-1',
-    question: 'What is Orkena Systems. ',
-    answer:
-      'Orkena Systems is a leading provider of high-quality UI components and templates for web developers. We offer a curated collection of free and premium components that are designed to work seamlessly with React, Next.js, and Vite. Our components are built with TypeScript, Tailwind CSS, and follow conventions, ensuring they are easy to integrate and customize for your projects.',
+    question: 'What services does Orkena Systems provides?',
+    answer: 'Orkena Systems provides dedicated development services globally. We have vast pool of vetted resources to work with your team.',
   },
   {
     value: 'item-2',
-    question: 'What\'s the difference between free and premium components?',
+    question: 'What\'s the difference between Monthly or Annual Price?',
     answer:
-      'Free components include essential UI elements like buttons, forms, and basic layouts. Premium components offer advanced features like complex data tables, analytics dashboards, authentication flows, and complete admin templates. Premium also includes Figma files, priority support, and commercial licenses.',
+      'The monthly price is a recurring subscription that allows you to access our components and templates on a month-to-month basis. The annual price is a one-time payment that provides access for a full year, often at a discounted rate compared to the monthly subscription. Both options include updates and support during the subscription period.',
   },
   {
     value: 'item-3',
-    question: 'Can I use these components in commercial projects?',
+    question: 'Are Orkena Systems good for E-Commerce, Web & Mobile App Development?',
     answer:
-      'Yes! Free components come with an MIT license for unlimited use. Premium components include a commercial license that allows usage in client projects, SaaS applications, and commercial products without attribution requirements.',
+      'Yes! Orkena Systems is a leading E-Commerce, Web & Mobile App Development Company that specializes in building innovative, scalable, and high-performance applications. Our team of experienced developers and designers work closely with clients to understand their unique needs and deliver solutions that exceed expectations.',
   },
   {
     value: 'item-4',
     question: 'Do you provide support and updates?',
     answer:
-      'Yes! We provide regular updates to both free and premium components based on community feedback. Premium subscribers receive priority support through our dedicated support channels, while free users can access community forums and documentation for assistance.',
+      'Yes! We provide support and updates for our E-Commerce and WebSites. Our team is dedicated to ensuring that our products remain up-to-date with the latest technologies and best practices. We offer support through various channels, including email, chat, and community forums, to assist you with any questions or issues you may encounter.',
   },
   {
     value: 'item-5',
@@ -44,9 +43,8 @@ const faqItems: FaqItem[] = [
   },
   {
     value: 'item-6',
-    question: 'How often do you release new components?',
-    answer:
-      'We release new components and templates weekly. Premium subscribers get early access to new releases, while free components are updated regularly based on community feedback. You can track our roadmap and request specific components through our GitHub repository.',
+    question: 'Will Orkena Systems outsource my project further to any third party? ',
+    answer: 'No, we strictly follow "work from office" policy and each and every developer is our full time employee. Each developer works under a dedicated team of Project Manager and a QA specialist.',
   },
 ]
 
