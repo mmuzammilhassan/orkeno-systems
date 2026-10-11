@@ -19,7 +19,7 @@ export function HeroSection() {
         <div className="mx-auto max-w-4xl text-center">
           {/* Announcement Badge */}
           <div className="mb-8 flex justify-center">
-            <Badge variant="outline" className="px-4 py-2 border-foreground">
+            <Badge variant="outline" className="px-4 py-2 border-primary text-opacity-10 bg-primary/10 hover:bg-primary/20 cursor-pointer transition-colors">
               <Star className="w-3 h-3 mr-2 fill-current" />
               {/* New: Premium Template Collection */}
               We help you in E-Commerce, Web & Mobile App Development
